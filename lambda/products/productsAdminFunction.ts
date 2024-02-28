@@ -9,7 +9,7 @@ export async function handler(
 
   console.log(`API Gateway requestId: ${apiRequestId} - Lambda requestId: ${lambdaRequestId}`);
 
-  if (event.resource === "/producst") {
+  if (event.resource === "/products") {
     console.log('POST /products');
 
     return {
